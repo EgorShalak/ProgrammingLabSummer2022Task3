@@ -169,8 +169,7 @@ public class Snake extends Application {
         gc.fillText("Score: " + (speed - 6), 10, 30);
 
         // foodcolor
-        Color cc = Color.WHITE;
-        gc.setFill(cc);
+        gc.setFill(Color.WHITE);
         gc.fillOval(foodX * cornersize, foodY * cornersize, cornersize, cornersize);
 
         // snake
